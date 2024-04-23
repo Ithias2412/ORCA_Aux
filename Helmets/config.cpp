@@ -37,7 +37,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Orca_Mod\Helmets\Tex\ORCA_Helmet_Old.paa"
+			"Orca_Aux\Helmets\Tex\ORCA_Helmet_Old.paa"
 		};
 		model="\SWLB_clones\SWLB_clone_P2_helmet.p3d";
 		class ItemInfo: HeadgearItem
@@ -70,7 +70,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Orca_Mod\Helmets\Tex\ORCA_Helmet_Old_NCO.paa"
+			"Orca_Aux\Helmets\Tex\ORCA_Helmet_Old_NCO.paa"
 		};
 	};
 
@@ -87,7 +87,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Orca_Mod\Helmets\Tex\ORCA_Helmet_Old_Pilot.paa",
+			"Orca_Aux\Helmets\Tex\ORCA_Helmet_Old_Pilot.paa",
 		};
 		model="\SWLB_clones\SWLB_clone_pilot_P2_helmet.p3d";
 		subItems[]=
@@ -128,7 +128,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Orca_Mod\Helmets\Tex\ORCA_Helmet_Old_JTAC.paa",
+			"Orca_Aux\Helmets\Tex\ORCA_Helmet_Old_JTAC.paa",
 		};
 		subItems[]=
 		{
@@ -167,7 +167,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Orca_Mod\Helmets\Tex\ORCA_Helmet_Old_JTAC_NCO.paa",
+			"Orca_Aux\Helmets\Tex\ORCA_Helmet_Old_JTAC_NCO.paa",
 		};
 		subItems[]=
 		{

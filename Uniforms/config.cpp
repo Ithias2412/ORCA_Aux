@@ -130,8 +130,8 @@ class ORCA_clone_base_P2: SWLB_clone_base_P2
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Orca_Mod\Uniforms\Tex\ORCA_Upper_armor_Old.paa",
-			"Orca_Mod\Uniforms\Tex\ORCA_Lower_armor_Old.paa",
+			"Orca_Aux\Uniforms\Tex\ORCA_Upper_armor_Old.paa",
+			"Orca_Aux\Uniforms\Tex\ORCA_Lower_armor_Old.paa",
 		};
 	};
 
@@ -148,8 +148,8 @@ class ORCA_clone_base_P2_Specialist: ORCA_clone_base_P2
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Orca_Mod\Uniforms\Tex\ORCA_Upper_armor_Old_Specialist.paa",
-			"Orca_Mod\Uniforms\Tex\ORCA_Lower_Armor_Old_Specialist.paa",
+			"Orca_Aux\Uniforms\Tex\ORCA_Upper_armor_Old_Specialist.paa",
+			"Orca_Aux\Uniforms\Tex\ORCA_Lower_Armor_Old_Specialist.paa",
 		};
 	};
 
@@ -166,8 +166,8 @@ class ORCA_clone_base_P2_Specialist_Alt: ORCA_clone_base_P2
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Orca_Mod\Uniforms\Tex\ORCA_Upper_armor_Old_Specialist_Alt.paa",
-			"Orca_Mod\Uniforms\Tex\ORCA_Lower_Armor_Old_Specialist.paa",
+			"Orca_Aux\Uniforms\Tex\ORCA_Upper_armor_Old_Specialist_Alt.paa",
+			"Orca_Aux\Uniforms\Tex\ORCA_Lower_Armor_Old_Specialist.paa",
 		};
 	};
 
@@ -184,8 +184,8 @@ class ORCA_clone_base_P2_NCO: ORCA_clone_base_P2
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Orca_Mod\Uniforms\Tex\ORCA_Upper_Armor_Old_NCO.paa",
-			"Orca_Mod\Uniforms\Tex\ORCA_Lower_Armor_Old_NCO.paa",
+			"Orca_Aux\Uniforms\Tex\ORCA_Upper_Armor_Old_NCO.paa",
+			"Orca_Aux\Uniforms\Tex\ORCA_Lower_Armor_Old_NCO.paa",
 		};
 	};
 
@@ -202,8 +202,8 @@ class ORCA_clone_base_P2_NCO_Alt: ORCA_clone_base_P2
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Orca_Mod\Uniforms\Tex\ORCA_Upper_Armor_Old_NCO_Alt.paa",
-			"Orca_Mod\Uniforms\Tex\ORCA_Lower_Armor_Old_NCO.paa",
+			"Orca_Aux\Uniforms\Tex\ORCA_Upper_Armor_Old_NCO_Alt.paa",
+			"Orca_Aux\Uniforms\Tex\ORCA_Lower_Armor_Old_NCO.paa",
 		};
 	};
 
