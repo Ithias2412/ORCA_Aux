@@ -49,13 +49,25 @@ class cfgWeapons
 				"camo1"
 			};
 			modelSides[]={6};
-			class HitpointsProtectionInfo
+            class HitpointsProtectionInfo
 			{
+				class Face
+				{
+					armor=20;
+					hitpointName="HitFace";
+					passThrough=0.1;
+				};
 				class Head
 				{
-					hitpointName="HitHead";
-					armor=6;
-					passThrough=0.5;
+					armor=40;
+					hitPointName="HitHead";
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					armor=15;
+					hitpointName="HitNeck";
+					passThrough=0.1;
 				};
 			};
 		};
@@ -104,13 +116,25 @@ class cfgWeapons
 			};
 			allowedSlots[]={801,901,701,605};
 			modelSides[]={6};
-			class HitpointsProtectionInfo
+            class HitpointsProtectionInfo
 			{
+				class Face
+				{
+					armor=20;
+					hitpointName="HitFace";
+					passThrough=0.1;
+				};
 				class Head
 				{
-					hitpointName="HitHead";
-					armor=6;
-					passThrough=0.5;
+					armor=40;
+					hitPointName="HitHead";
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					armor=15;
+					hitpointName="HitNeck";
+					passThrough=0.1;
 				};
 			};
 		};
@@ -144,13 +168,25 @@ class cfgWeapons
 			{
 				"Camo1"
 			};
-			class HitpointsProtectionInfo
+            class HitpointsProtectionInfo
 			{
+				class Face
+				{
+					armor=20;
+					hitpointName="HitFace";
+					passThrough=0.1;
+				};
 				class Head
 				{
-					hitpointName="HitHead";
-					armor=50;
-					passThrough=0.5;
+					armor=40;
+					hitPointName="HitHead";
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					armor=15;
+					hitpointName="HitNeck";
+					passThrough=0.1;
 				};
 			};
 		};
@@ -183,18 +219,29 @@ class cfgWeapons
 			{
 				"Camo1"
 			};
-			class HitpointsProtectionInfo
+            class HitpointsProtectionInfo
 			{
+				class Face
+				{
+					armor=20;
+					hitpointName="HitFace";
+					passThrough=0.1;
+				};
 				class Head
 				{
-					hitpointName="HitHead";
-					armor=50;
-					passThrough=0.5;
+					armor=40;
+					hitPointName="HitHead";
+					passThrough=0.1;
+				};
+				class Neck
+				{
+					armor=15;
+					hitpointName="HitNeck";
+					passThrough=0.1;
 				};
 			};
 		};
 	};
-
 
 //Base End
 };

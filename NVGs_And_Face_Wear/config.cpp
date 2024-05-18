@@ -63,7 +63,7 @@ class CfgGlasses
 		scope = 2;
 		displayName = "[ORCA] Visor (On)";
 		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"\lsd_equipment_bluefor\accessories\gar\visor\data\SWLB_clone_nvg_co.paa"};
+		hiddenSelectionsTextures[] = {"\ORCA_Aux\NVGs_And_Face_Wear\Tex\ORCA_Facewear_Visor.paa"};
 		model = "\lsd_equipment_bluefor\accessories\gar\visor\lsd_gar_visor_nvg_on.p3d";
 		picture = "\lsd_equipment_bluefor\accessories\gar\_ui\icon_cloneVisor_ca.paa";
 	};
@@ -72,7 +72,7 @@ class CfgGlasses
 		scope = 2;
 		displayName = "[ORCA] Visor (Off)";
 		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"\lsd_equipment_bluefor\accessories\gar\visor\data\SWLB_clone_nvg_co.paa"};
+		hiddenSelectionsTextures[] = {"\ORCA_Aux\NVGs_And_Face_Wear\Tex\ORCA_Facewear_Visor.paa"};
 		model = "\lsd_equipment_bluefor\accessories\gar\visor\lsd_gar_visor_nvg_off.p3d";
 	};
 	class ORCA_Facewear_XO :ORCA_Facewear_Base
@@ -80,7 +80,7 @@ class CfgGlasses
 		scope = 2;
 		displayName = "[ORCA] Commander Visor (XO)";
 		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"\SWLB_clones\data\SWLB_clone_nvg_co.paa"};
+		hiddenSelectionsTextures[] = {"\ORCA_Aux\NVGs_And_Face_Wear\Tex\ORCA_Facewear_Commander.paa"};
 		model = "\SWLB_clones\SWLB_clone_ccVisor.p3d";
 		picture = "\SWLB_clones\data\ui\icon_SWLB_clone_ccVisor_ca.paa";
 	};
@@ -88,6 +88,46 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayName = "[ORCA] Commander Visor (CO)";
+		hiddenSelections[] = {"camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\ORCA_Aux\NVGs_And_Face_Wear\Tex\ORCA_Facewear_Commander.paa",
+			"\ORCA_Aux\NVGs_And_Face_Wear\Tex\ORCA_Facewear_Commander.paa",
+			"\ORCA_Aux\NVGs_And_Face_Wear\Tex\ORCA_Facewear_Commander.paa",
+		};
+		model = "\lsd_equipment_bluefor\accessories\gar\commander\lsd_gar_p2Commander_nvg";
+		picture = "\lsd_equipment_bluefor\accessories\gar\_ui\icon_cloneVisor_cc_ca.paa";
+	};
+	class ORCA_Facewear_Visor_Old :ORCA_Facewear_Base
+	{
+		scope = 2;
+		displayName = "[ORCA] Visor (On / Clean)";
+		hiddenSelections[] = {"camo1","camo2"};
+		hiddenSelectionsTextures[] = {"\lsd_equipment_bluefor\accessories\gar\visor\data\SWLB_clone_nvg_co.paa"};
+		model = "\lsd_equipment_bluefor\accessories\gar\visor\lsd_gar_visor_nvg_on.p3d";
+		picture = "\lsd_equipment_bluefor\accessories\gar\_ui\icon_cloneVisor_ca.paa";
+	};
+	class ORCA_Facewear_Visor_Off_Old :ORCA_Facewear_Visor
+	{
+		scope = 2;
+		displayName = "[ORCA] Visor (Off / Clean)";
+		hiddenSelections[] = {"camo1","camo2"};
+		hiddenSelectionsTextures[] = {"\lsd_equipment_bluefor\accessories\gar\visor\data\SWLB_clone_nvg_co.paa"};
+		model = "\lsd_equipment_bluefor\accessories\gar\visor\lsd_gar_visor_nvg_off.p3d";
+	};
+	class ORCA_Facewear_XO_Old :ORCA_Facewear_Base
+	{
+		scope = 2;
+		displayName = "[ORCA] Commander Visor (XO / Clean)";
+		hiddenSelections[] = {"camo1","camo2"};
+		hiddenSelectionsTextures[] = {"\SWLB_clones\data\SWLB_clone_nvg_co.paa"};
+		model = "\SWLB_clones\SWLB_clone_ccVisor.p3d";
+		picture = "\SWLB_clones\data\ui\icon_SWLB_clone_ccVisor_ca.paa";
+	};
+	class ORCA_Facewear_CO_Old :ORCA_Facewear_Base
+	{
+		scope = 2;
+		displayName = "[ORCA] Commander Visor (CO / Clean)";
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"\lsd_equipment_bluefor\accessories\gar\visor\data\SWLB_clone_nvg_co.paa","\lsd_equipment_bluefor\accessories\gar\visor\data\SWLB_clone_nvg_co.paa","\lsd_equipment_bluefor\accessories\gar\visor\data\SWLB_clone_nvg_co.paa"};
 		model = "\lsd_equipment_bluefor\accessories\gar\commander\lsd_gar_p2Commander_nvg";

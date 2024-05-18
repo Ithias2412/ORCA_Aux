@@ -53,6 +53,51 @@ class ORCA_Veteran_Vest: SWLB_clone_recon_armor
 			containerClass="Supply100";
 			vestType = "Rebreather";
 			mass=80;
+			class HitpointsProtectionInfo
+            {
+                class Neck
+                {
+                    hitpointName = "HitNeck";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Arms
+                {
+                    hitpointName = "HitArms";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    passThrough = 0.1;
+                    armor = 40;
+                };
+                class Legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+            };
 			hiddenSelections[] = 
 			{
 				"camo1",
@@ -90,6 +135,51 @@ class ORCA_Corporal_Vest: SWLB_clone_specialist_armor
 			containerClass="Supply100";
 			vestType = "Rebreather";
 			mass=80;
+			class HitpointsProtectionInfo
+            {
+                class Neck
+                {
+                    hitpointName = "HitNeck";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Arms
+                {
+                    hitpointName = "HitArms";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    passThrough = 0.1;
+                    armor = 40;
+                };
+                class Legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+            };
 			hiddenSelections[] = 
 			{
 				"camo1",
@@ -115,7 +205,7 @@ class ORCA_Sergeant_Vest: SWLB_clone_kama_armor
 		};
 		hiddenSelectionsTextures[] = 
 		{
-			"\SWLB_clones\data\officer_accessories_co.paa",
+			"\ORCA_Aux\Vests\Tex\ORCA_Vest_NCO.paa",
 			""
 		};
 		class ItemInfo: VestItem
@@ -124,6 +214,51 @@ class ORCA_Sergeant_Vest: SWLB_clone_kama_armor
 			containerClass="Supply100";
 			vestType = "Rebreather";
 			mass=80;
+			class HitpointsProtectionInfo
+            {
+                class Neck
+                {
+                    hitpointName = "HitNeck";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Arms
+                {
+                    hitpointName = "HitArms";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    passThrough = 0.1;
+                    armor = 40;
+                };
+                class Legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+            };
 			hiddenSelections[] = 
 			{
 				"camo1",
@@ -131,7 +266,7 @@ class ORCA_Sergeant_Vest: SWLB_clone_kama_armor
 			};
 			hiddenSelectionsTextures[] = 
 			{
-				"\SWLB_clones\data\officer_accessories_co.paa",
+				"\ORCA_Aux\Vests\Tex\ORCA_Vest_NCO.paa",
 				""
 			};
 		};
@@ -150,7 +285,7 @@ class ORCA_Platoon_Sergeant_Vest: SWLB_CEE_Hazard_Vest
 		hiddenSelectionsTextures[] = 
 		{
 			"SWLB_clones\data\light_accessories_co.paa",
-			"SWLB_clones\data\officer_accessories_co.paa"
+			"ORCA_Aux\Vests\Tex\ORCA_Vest_NCO.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -158,6 +293,51 @@ class ORCA_Platoon_Sergeant_Vest: SWLB_CEE_Hazard_Vest
 			containerClass="Supply100";
 			vestType = "Rebreather";
 			mass=80;
+			class HitpointsProtectionInfo
+            {
+                class Neck
+                {
+                    hitpointName = "HitNeck";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Arms
+                {
+                    hitpointName = "HitArms";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    passThrough = 0.1;
+                    armor = 40;
+                };
+                class Legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+            };
 			hiddenSelections[] = 
 			{
 				"camo1",
@@ -166,7 +346,7 @@ class ORCA_Platoon_Sergeant_Vest: SWLB_CEE_Hazard_Vest
 			hiddenSelectionsTextures[] = 
 			{
 				"SWLB_clones\data\light_accessories_co.paa",
-				"SWLB_clones\data\officer_accessories_co.paa"
+				"ORCA_Aux\Vests\Tex\ORCA_Vest_NCO.paa"
 			};
 		};
 	};
@@ -182,7 +362,7 @@ class ORCA_Platoon_Executive_Officer_Vest: SWLB_clone_officer_armor
 		};
 		hiddenSelectionsTextures[] = 
 		{
-			"SWLB_clones\data\officer_accessories_co.paa"
+			"ORCA_Aux\Vests\Tex\ORCA_Vest_NCO.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -190,13 +370,58 @@ class ORCA_Platoon_Executive_Officer_Vest: SWLB_clone_officer_armor
 			containerClass="Supply100";
 			vestType = "Rebreather";
 			mass=80;
+			class HitpointsProtectionInfo
+            {
+                class Neck
+                {
+                    hitpointName = "HitNeck";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Arms
+                {
+                    hitpointName = "HitArms";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    passThrough = 0.1;
+                    armor = 40;
+                };
+                class Legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+            };
 			hiddenSelections[] = 
 			{
 				"camo1",
 			};
 			hiddenSelectionsTextures[] = 
 			{
-				"SWLB_clones\data\officer_accessories_co.paa"
+				"ORCA_Aux\Vests\Tex\ORCA_Vest_NCO.paa"
 			};
 		};
 	};
@@ -213,7 +438,7 @@ class ORCA_Platoon_Commanding_Officer_Vest: SWLB_clone_commander_armor
 		};
 		hiddenSelectionsTextures[] = 
 		{
-			"SWLB_clones\data\officer_accessories_co.paa",
+			"ORCA_Aux\Vests\Tex\ORCA_Vest_NCO.paa",
 			""
 		};
 		class ItemInfo: VestItem
@@ -222,6 +447,51 @@ class ORCA_Platoon_Commanding_Officer_Vest: SWLB_clone_commander_armor
 			containerClass="Supply100";
 			vestType = "Rebreather";
 			mass=80;
+			class HitpointsProtectionInfo
+            {
+                class Neck
+                {
+                    hitpointName = "HitNeck";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Arms
+                {
+                    hitpointName = "HitArms";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    passThrough = 0.1;
+                    armor = 40;
+                };
+                class Legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+            };
 			hiddenSelections[] = 
 			{
 				"camo1",
@@ -229,7 +499,7 @@ class ORCA_Platoon_Commanding_Officer_Vest: SWLB_clone_commander_armor
 			};
 			hiddenSelectionsTextures[] = 
 			{
-				"SWLB_clones\data\officer_accessories_co.paa",
+				"ORCA_Aux\Vests\Tex\ORCA_Vest_NCO.paa",
 				""
 			};
 		};
@@ -239,6 +509,61 @@ class ORCA_Platoon_Commanding_Officer_Vest: SWLB_clone_commander_armor
 	{
 		author="Ithias";
 		displayName = "[ORCA] Vest (Trooper)";
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\SWLB_clones\SWLB_clone_basic_armor.p3d";
+			containerClass="Supply100";
+			vestType = "Rebreather";
+			mass=80;
+			class HitpointsProtectionInfo
+            {
+                class Neck
+                {
+                    hitpointName = "HitNeck";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Arms
+                {
+                    hitpointName = "HitArms";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+                class Chest
+                {
+                    hitpointName = "HitChest";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Diaphragm
+                {
+                    hitpointName = "HitDiaphragm";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Abdomen
+                {
+                    hitpointName = "HitAbdomen";
+                    armor = 45;
+                    passThrough = 0.1;
+                };
+                class Body
+                {
+                    hitpointName = "HitBody";
+                    passThrough = 0.1;
+                    armor = 40;
+                };
+                class Legs
+                {
+                    hitpointName = "HitLegs";
+                    armor = 40;
+                    passThrough = 0.1;
+                };
+            };
+			hiddenSelections[] = 
+			{
+				"",
+			};
+		};
 	};
-
 };
